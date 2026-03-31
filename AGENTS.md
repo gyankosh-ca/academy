@@ -19,7 +19,7 @@ This repository is an **Implementation (`Kriti`)** layer. All intelligence and d
 2. **Stories:** Read `./docs/stories.yaml` — this is the source of truth for all work items. Only build what is defined here.
 3. **Current Work:** Check your GitHub assignments: `gh issue list --assignee @me --state open`
 4. **Branch:** Confirm the issue you're working on. Convention: `feat/[issue-number]-[story-id]` e.g. `feat/42-user-auth-login`
-5. **Role Alignment:** When assuming a role, load the agent definition from `./.cursor/ai_core/Agents/` (e.g., `Architect.md`).
+5. **Role Alignment:** When assuming a role, load the agent definition from `./.cursor/ai_core/Agents/`. Available agents: `Product_Manager.md` (PRD, stories), `Architect.md` (technical design, ADRs), `Engineer.md` (build, UI), `QA.md` (testing, accessibility), `DevOps.md` (deploy, docs).
 6. **No Ghost Code:** Do not implement features not in `docs/stories.yaml`. If the PRD is outdated, update it via `./docs/` first.
 7. **Security:** This project uses **Clerk** for auth. Ensure all gated routes use appropriate middleware checks.
 8. **Secrets Safety:** Never commit sensitive information. Use `.env.local` for local development.
