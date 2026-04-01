@@ -1,3 +1,3 @@
-[submodule ".cursor/ai_core"]
-	path = .cursor/ai_core
+[submodule ".ai/core"]
+	path = .ai/core
 	url = https://github.com/gyankosh-ca/gyankosh-core.git
